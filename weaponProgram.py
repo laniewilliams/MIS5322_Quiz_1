@@ -33,7 +33,7 @@ weapons_dict = {}
 
 
 #use a for loop to iterate through every row of the csv file
-for record in weapons_csv:
+for record in weapons_file:
     #use variables for name,speed and range (optional)
     name = record[0]
     speed = record[1]
